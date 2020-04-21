@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To DO</title>
+    <!-- Ignore this if you don't know -->
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .container {
+            margin: auto;
+            width: 60%;
+        }
+        
+        .nav a {
+            text-decoration: none;
+        }
+    </style>
+    <!--  -->
+</head>
+<html>
+        <body bgcolor=	#ccffcc>    
+    </body>
+</html>
+<p id="date"></p>
+<script>
+document.getElementById("date").innerHTML = Date();
+</script>
+
+<body>
+    <div class="container">
+        <center><h1><font size="7">To DO</font></h1>
+        
+            <div class="nav">
+            <a href="/feedback"><font size="6">Take your notes!
+                what U want to DO?</font>
+                </a> 
+                <p>
+                <br>
+
+            <a href="/show"><font size="6">DON'T FORGET </font>
+            </a></p>
+            <hr>
+            </div>
+        </center> 
+        {% block content %} {% endblock%}
+    </div>
+</body>
+
+</html>
