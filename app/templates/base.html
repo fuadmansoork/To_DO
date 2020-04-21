@@ -26,23 +26,19 @@
         <body bgcolor=	#ccffcc>    
     </body>
 </html>
-<p id="date"></p>
-<script>
-document.getElementById("date").innerHTML = Date();
-</script>
 
 <body>
     <div class="container">
         <center><h1><font size="7">To DO</font></h1>
         
             <div class="nav">
-            <a href="/feedback"><font size="6">Take your notes!
-                what U want to DO?</font>
+            <a href="/feedback"><font size="6">Take your Notes!
+                </font>
                 </a> 
                 <p>
                 <br>
 
-            <a href="/show"><font size="6">DON'T FORGET </font>
+            <a href="/show"><font size="6">Notes </font>
             </a></p>
             <hr>
             </div>
@@ -50,5 +46,9 @@ document.getElementById("date").innerHTML = Date();
         {% block content %} {% endblock%}
     </div>
 </body>
+<p id="date"></p>
+<script>
+document.getElementById("date").innerHTML = Date();
+</script>
 
 </html>
